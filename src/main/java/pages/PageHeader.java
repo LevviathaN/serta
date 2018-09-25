@@ -10,7 +10,7 @@ import java.util.List;
 import static com.codeborne.selenide.Selenide.*;
 import static org.openqa.selenium.By.xpath;
 
-public class PageHeader {
+public class PageHeader extends BasePage {
 
     private static PageHeader instance;
     public static PageHeader Instance = (instance != null) ? instance : new PageHeader();
